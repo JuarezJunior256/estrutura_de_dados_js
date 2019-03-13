@@ -38,7 +38,7 @@ function Stack(){
 
    this.size = function() {
        // devolve o numero de elementos contidos na pilha
-       return items.size();
+       return items.length;
    };
 
    //LIMPANDO O ARRAY
@@ -57,8 +57,4 @@ function Stack(){
    };
 }
 
-//USANDO A CLASSE STACK 
 
-let stack = new Stack();
-
-console.log(stack.isEmpty());
