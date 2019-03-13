@@ -9,7 +9,7 @@ function Stack(){
    //EMPILHANDO ELEMENTOS NA PILHA
 
    this.push = function(element) {
-    items.push
+    items.push();
    }
 
    //DESEMPILHANDO ELEMENTOS DA PILHA
