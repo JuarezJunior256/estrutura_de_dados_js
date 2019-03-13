@@ -29,6 +29,25 @@ function Stack(){
    this.isEmpty = function() {
        return items.length == 0;
    }
+
+   //TAMANHO DA PILHA
+
+   this.size = function() {
+       return items.size();
+   }
+
+   //LIMPANDO O ARRAY
+
+   this.clear = function() {
+       items = [];
+   }
+
+   //EXIBINDO ITEMS DA PILHA
+
+   this.print = function() {
+       console.log(items.toString());
+       
+   } 
 }
 
 
@@ -38,4 +57,5 @@ peek();// devolve elemento que está no topo da pilha
 isEmpty()// devolve true se a pilha não contiver elemento e false se for > que 0
 clear();// remove todos elementos da pilha
 size();// devolve o numero de elementos contidos na pilha
+print();//mostrar itens da pilha
 
